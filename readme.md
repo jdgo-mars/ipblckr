@@ -9,4 +9,4 @@ Whenever a threshold `t` is reached for a determined IP it will be blocked using
 
 ## Some considerations
 
-- Use SQLite to keep track of attempts made by a specific IP
+- Using pickleDb because its lightweight and does the job
