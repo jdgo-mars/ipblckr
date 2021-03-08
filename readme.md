@@ -6,7 +6,3 @@
 
 By watching changes on `/var/log/auth.log` and probing for new failed login attempts.
 Whenever a threshold `t` is reached for a determined IP it will be blocked using IPTables.
-
-## Some considerations
-
-- Using pickleDb because its lightweight and does the job
